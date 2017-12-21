@@ -6,11 +6,9 @@ export default (props) => {
   const Content = props.content
   return (
   <main role="content">
-    <Head><title>Carlos Sz  |  {props.title}</title></Head>
+    <Head><title>Lightswarm  |  {props.title}</title></Head>
     <Menu />
     <Loader />
     <Content />
   </main>
 )}
-
-

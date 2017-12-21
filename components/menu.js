@@ -4,27 +4,27 @@ import Link from 'next/link'
 export default () => (
 	<article className="menu">
 	  <div className="img-container">
-	    <Link prefetch href="/"><img src="/static/cartoon-hb.svg" alt="Cartoon"/></Link>
+	    <Link prefetch href="/"><img src="/static/bitcoin-icon.svg" alt="Cartoon"/></Link>
 	  </div>
 	  <ul>
-	    <li><Link prefetch href="/bio">
+	    <li><Link prefetch href="/biography">
     		<a>
    				<svg><rect x="0" y="0" fill="none" width="100%" height="100%" /></svg>
-   				Biografia
-    			<div className="mobile"><img src="/static/avatar.svg" alt="Bio"/></div>
+   				Biography
+    			<div className="mobile"><img src="/static/avatar.svg" alt="Biography"/></div>
     		</a>
 	    </Link></li>
-	    <li><Link prefetch href="/portafolio">
+	    <li><Link prefetch href="/portfolio">
 	    	<a>
     			<svg><rect x="0" y="0" fill="none" width="100%" height="100%" /></svg>
-    			Portafolio
-	    		<div className="mobile"><img src="/static/portafolio.svg" alt="Portafolio"/></div>
+    			Portfolio
+	    		<div className="mobile"><img src="/static/portfolio.svg" alt="Portfolio"/></div>
 	    	</a>
 	    </Link></li>
 	    <li><Link prefetch href="/contact">
 	    	<a>
     			<svg><rect x="0" y="0" fill="none" width="100%" height="100%" /></svg>
-    			Contacto
+    			Contact
 	    		<div className="mobile"><img src="/static/mail.svg" alt="Contact"/></div>
 	    	</a>
 	    </Link></li>
@@ -53,9 +53,10 @@ export default () => (
 	  	.menu .img-container {
 	  	  width: 30%;
 	  	  cursor: pointer;
-	  	}
+		}
 	  	.menu .img-container img {
-	  	  width: 50px;
+	  	  width: 100px;
+		  filter: invert(100%);
 	  	}
 	  	.menu ul {
 	  	  display: -webkit-flex;display: -moz-flex;display: -ms-flex;display: -o-flex;display: flex;

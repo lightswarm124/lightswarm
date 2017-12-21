@@ -12,13 +12,14 @@ class Form extends Component {
 					}
 				`}</style>
 
-				<h1 className="formTitle">Contacto</h1>
-				<Input value="Nombre" name="name" />
+				<h1 className="formTitle">Contact</h1>
+				<Input value="Name" name="name" />
 				<Input value="Tel" type="tel" />
 				<Input value="Email" type="email" name="_replyto" />
 				<Input value="Subject" name="_subject" />
+				{/* A JSX comment*/}
 				<input type="hidden" name="_next" value="http://carlossz.co/" />
-				<Input value="Mensaje" textarea />
+				<Input value="Message" textarea />
 				<Button id="sendEmail" msg="Send mail" big submit />
 				<style>{`
 					#Form {
@@ -58,4 +59,3 @@ class Form extends Component {
 }
 
 export default () => (<Layout title="Contacto" content={Form}/>)
-

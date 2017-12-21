@@ -6,7 +6,7 @@ const Error = () => (
 	<article id="error">
 		<div className="errorMsg">
 			<h1>404</h1>
-			<h2>Lo sentimos, la pagina que buscas no existe...</h2>
+			<h2>Sorry, the page does not exist</h2>
 			<style>{`
 				.error { padding-bottom: 50px; }
 				.errorMsg h1 {
@@ -24,10 +24,9 @@ const Error = () => (
 				}
 			`}</style>
 		</div>
-		<Button msg="Volver al Home" />
+		<Button msg="Return to Home" />
 	</article>
 )
 
 
 export default () => (<Layout title="Not Found" content={Error} />)
-

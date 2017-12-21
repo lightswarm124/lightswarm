@@ -3,7 +3,7 @@ import {Layout} from '../components'
 
 const Logo = () => (
 	<div className="logo">
-		<img src="/static/logo.png" alt="Carlos SZ"/>
+		<img src="/static/newLogo.png" alt="Carlos SZ"/>
 		<style>{`
 			.logo {
 			  position:relative;

@@ -12,7 +12,7 @@ export default () => (
 	    	</a>
 	    </li>
 	    <li>
-	    	<a href="https://co.linkedin.com/in/carlossz" target="_blank">
+	    	<a href="https://www.linkedin.com/in/jerry-qian-4ba2a79a/" target="_blank">
 	    		LinkedIn
 	    		<div className="img">
 	    			<img src="/static/linkedin.svg" alt="LinkedIn" />
@@ -20,7 +20,7 @@ export default () => (
 	    	</a>
 	    </li>
 	    <li>
-	    	<a href="https://www.github.com/icarlossz" target="_blank">
+	    	<a href="https://www.github.com/lightswarm124" target="_blank">
 	    		Github
 	    		<div className="img">
 	    			<img src="/static/github.svg" alt="Github" />
@@ -28,23 +28,7 @@ export default () => (
 	    	</a>
 	    </li>
 	    <li>
-	    	<a href="https://www.behance.net/carlossz" target="_blank">
-	    		Behance
-	    		<div className="img">
-	    			<img src="/static/behance.svg" alt="Behance" />
-	    		</div>
-	    	</a>
-	    </li>
-	    <li>
-	    	<a href="https://www.instagram.com/icarlossz/" target="_blank">
-	    		Instagram
-	    		<div className="img">
-	    			<img src="/static/instagram.svg" alt="Instagram" />
-	    		</div>
-	    	</a>
-	    </li>
-	    <li>
-	    	<a href="https://medium.com/@carlossz" target="_blank">
+	    	<a href="https://medium.com/@lightswarm" target="_blank">
 	    		Medium
 	    		<div className="img">
 	    			<img src="/static/medium.svg" alt="Medium" />
