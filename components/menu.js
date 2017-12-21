@@ -55,7 +55,7 @@ export default () => (
 	  	  cursor: pointer;
 		}
 	  	.menu .img-container img {
-	  	  width: 100px;
+	  	  width: 50px;
 		  filter: invert(100%);
 	  	}
 	  	.menu ul {

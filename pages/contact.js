@@ -58,4 +58,4 @@ class Form extends Component {
 	}
 }
 
-export default () => (<Layout title="Contacto" content={Form}/>)
+export default () => (<Layout title="Contact" content={Form}/>)

@@ -64,4 +64,4 @@ const Biography = () => (
 	</div>
 )
 
-export default () => (<Layout title="Biografia" content={Biography}/>)
+export default () => (<Layout title="Biography" content={Biography}/>)
