@@ -4,7 +4,7 @@ export default () => (
 	<article className="footer">
 	  <ul>
 	    <li>
-	    	<a href="https://www.twitter.com/icarlossz" target="_blank">
+	    	<a href="https://twitter.com/Lightswarm" target="_blank">
 	    		Twitter
 	    		<div className="img">
 	    			<img src="/static/twitter.svg" alt="Twitter" />
