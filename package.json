@@ -1,7 +1,7 @@
 {
-  "name": "blackome",
-  "version": "0.1.6",
-  "description": "personal page made in react & nextjs",
+  "name": "lightswarm",
+  "version": "0.0.1",
+  "description": "Personal Page from React & NextJS",
   "main": "pages/index.js",
   "scripts": {
     "dev": "next",
@@ -10,18 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/icarlossz/blackome.git"
+    "url": "https://github.com/lightswarm124/lightswarm.git"
   },
   "keywords": [
     "personal",
     "react",
     "next"
   ],
-  "author": "CarlosSz",
+  "author": "Lightswarm",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/icarlossz/blackome/issues"
-  },
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
     "next": "^2.1.1",
