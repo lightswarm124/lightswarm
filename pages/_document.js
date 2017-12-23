@@ -13,7 +13,7 @@ export default class Portafolio extends Document {
     return (
      <html>
        <Head>
-        <title>Carlos Sz</title>
+        <title>Lightswarm: Bitcoin Bay</title>
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
         <link rel="shortcut icon" href="/static/head.png"/>
         <link rel="icon" href="/static/head.png" type="image/png"/>
