@@ -14,6 +14,13 @@ export default () => (
     			<div className="mobile"><img src="/static/avatar.svg" alt="Biography"/></div>
     		</a>
 	    </Link></li>
+		<li><Link prefetch href="/tools">
+			<a>
+				<svg><rect x="0" y="0" fill="none" width="100%" height="100%" /></svg>
+				Tools
+				<div className="mobile"><img src="/static/avatar.svg" alt="Tools"/></div>
+			</a>
+		</Link></li>
 	    <li><Link prefetch href="/portfolio">
 	    	<a>
     			<svg><rect x="0" y="0" fill="none" width="100%" height="100%" /></svg>
